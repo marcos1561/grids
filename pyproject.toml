@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grids"
+version = "0.0.1"
+authors = [
+  { name="Marcos Pasa", email="marcos.pasa@ufrgs.br" },
+]
+description = "Grids is a package for partitioning space into grid elements and performing operations, such as summing arrays with arbitrary shapes, within each grid element."
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "pyyaml",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["tests*"]
