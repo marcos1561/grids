@@ -6,6 +6,10 @@ Grids is a Python package for partitioning space into grid elements and performi
 
 You can install Grids using pip:
 
+```bash
+pip install -e "git+https://github.com/marcos1561/grids.git/#egg=texture"
+```
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute, please follow these steps:
