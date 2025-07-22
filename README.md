@@ -1,6 +1,5 @@
 # Grids
-
-Grids is a Python package for partitioning space into grid elements and performing operations on tensor quantities. It enables the calculation of averages for tensors within each grid element, making it ideal for spatial data analysis and visualization.
+Grids is a Python package designed to partition space into grid elements and perform operations on tensor fields. It facilitates the computation of tensor averages within each element, making it well-suited for spatial data analysis and visualization.
 
 ## Installation
 
