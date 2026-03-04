@@ -96,12 +96,12 @@ grid = grids.RegularRectGridCfg(
     center=(0, 0),
 ).get_grid()
 
-points = grid.random_points(10)
+points = grid.random_points(20)
 
 import matplotlib.pyplot as plt
 ax = plt.gca()
 
-grid.debug_points(ax)
+grid.debug_points(ax, points)
 grid.plot_grid(ax)
 plt.show()
 ```
