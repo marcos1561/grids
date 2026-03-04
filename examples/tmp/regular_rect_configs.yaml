@@ -1,0 +1,8 @@
+!!python/object:grids.core.RegularRectGridCfg
+center: !!python/tuple
+- 0
+- 0
+height: 1
+length: 1
+num_cols: 10
+num_rows: 10
